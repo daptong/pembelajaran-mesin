@@ -1,0 +1,5 @@
+model,strengths,weaknesses,best use case
+gan,"simple baseline, easy to inspect, fast forward pass.",ignores spatial image structure and may generate blurrier samples.,teaching adversarial training fundamentals on small images.
+dcgan,uses convolutional spatial bias and usually improves image realism.,still vulnerable to mode collapse and unstable adversarial dynamics.,baseline image generation for small grayscale or rgb image datasets.
+lstm,cell state can preserve longer-range information.,more parameters and slower generation than simpler recurrent variants.,sequence modeling when longer dependencies matter.
+gru,"compact gating, often faster, competitive perplexity.",may be less expressive than lstm on some long-context tasks.,efficient recurrent text generation baseline.

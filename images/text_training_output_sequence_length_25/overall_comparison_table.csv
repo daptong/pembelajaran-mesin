@@ -1,0 +1,5 @@
+model,domain,final loss,quality metric,training time (approx)
+GAN,vision,,sharpness=0.2042; diversity=11.2225,9.9 min
+DCGAN,vision,0.899841241769119,sharpness=0.1551; diversity=11.2620,9.5 min
+,,,,
+,,,,
